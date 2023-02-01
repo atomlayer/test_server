@@ -1,0 +1,13 @@
+conda create --name game python=3.10
+conda activate game
+
+cd %Путь к папке с сервером%
+
+run.cmd
+
+
+
+
+
+
+conda env export --name game > game.yml
